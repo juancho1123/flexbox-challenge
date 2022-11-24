@@ -58,6 +58,12 @@ body {
   height: 150px;
   width: 150px;
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.child-3 {
+  align-self: flex-end;
 }
 
 /*  ---- end exercise 3 ----  */
