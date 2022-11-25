@@ -59,11 +59,13 @@ body {
   width: 150px;
   padding: 20px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .child-3 {
-  align-self: flex-end;
+  flex: auto;
+  display: flex;
+  align-items: flex-end;
 }
 
 /*  ---- end exercise 3 ----  */
@@ -82,9 +84,9 @@ body {
 
 .card-text-wrapper {
   padding: 20px;
+  display: flex;
   flex-direction: column;
-  position: relative;
-  flex: auto;
+  justify-content: flex-end;
 }
 
 .card-img {
@@ -97,8 +99,7 @@ body {
   padding: 10px;
   font-size: 16px;
   border-radius: 10px;
-  position: absolute;
-  bottom: 1rem;
+  margin-top: auto;
 }
 
 /*  ---- end exercise 4 ----  */
