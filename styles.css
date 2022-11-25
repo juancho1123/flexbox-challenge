@@ -109,7 +109,7 @@ body {
   width: 800px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .tags li {
@@ -118,6 +118,7 @@ body {
   background-color: rgb(111, 41, 97);
   color: #fff;
   border-radius: 10px;
+  list-style-type: none;
 }
 
 /*  ---- end exercise 5 ----  */
